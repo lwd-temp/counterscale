@@ -137,11 +137,11 @@ export default function Index() {
                     <CardContent className="pt-6">
                         <div className="grid grid-cols-3 gap-10">
                             <div>
-                                <div className="text-muted-foreground">Page Views</div>
+                                <div>Page Views</div>
                                 <div className="text-4xl">{data.views}</div>
                             </div>
                             <div>
-                                <div className="text-muted-foreground">Visitors</div>
+                                <div>Visitors</div>
                                 <div className="text-4xl">{data.visits}</div>
                             </div>
                         </div>
